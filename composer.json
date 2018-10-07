@@ -1,0 +1,28 @@
+{
+   "name": "Template and Styling",
+   "description": "Template and Styling example with Twig pagination",
+   "keywords": ["router", "routing", "lightweight"],
+   "homepage": "http://web.discoveringworld.net/",
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "Maksim Narushevich",
+         "email": "narushevich.gmail@gmail.com",
+         "homepage": "http://web.discoveringworld.net/"
+      }
+   ],
+   "require": {
+      "php": ">=5.3.0",
+      "twig/twig": "^2.0"
+   },
+   "require-dev": {
+      "phpunit/phpunit": "4.5.*",
+      "codeclimate/php-test-reporter": "dev-master"
+   },
+   "autoload": {
+      "classmap": ["AltoRouter.php", "Controllers/","Models/"]
+   },
+   "scripts": {
+     "test": "vendor/bin/phpunit"
+   }
+}
